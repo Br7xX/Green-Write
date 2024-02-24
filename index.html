@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Rewrite Co.</title>
+  <meta name="title" content="Jb Concha">
+  <meta name="description" content="This is for Green - Write product notebook, website made by Jb">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="rewrote.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="images/hero-bg.jpg">
+  <link rel="preload" as="image" href="images/hero-slide-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="images/RewriteRight Logo.png" width="74" height="24" alt="Jb Concha" class="logo-light" id="lolo">
+
+        <img src="images/Green Logo.png" width="74" height="24" alt="Jb Concha" class="logo-dark" id="lolo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="" width="74" height="24" alt="Jb">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#abo" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#plano" class="navbar-link">Plan</a>
+          </li>
+
+          <li>
+            <a href="#wow" class="navbar-link">Product</a>
+          </li>
+
+          <li>
+            <a href="#end" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:info@email.com" class="contact-link">conchajb8@gmail.com</a>
+
+          <a href="tel:09514797005" class="contact-link">63+ (09) 514 78 7005</a>
+        </div>
+
+        <ul class="social-list">
+
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="#" class="btn btn-primary">Jb Concha</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" aria-label="home"
+        style="background-image: url(images/hero-bg.jpg)">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">ReWrite Right for Eco -Friendly Notebooks</h1>
+
+            <p class="hero-text">
+              We envision a world where  sustainability and creativity are prioritized to develop unique, eco-friendly products.
+            </p>
+
+            <div class="btn-wrapper">
+
+              <a href="#" class="btn btn-primary">GreenWrite</a>
+
+              <a href="https://www.philstar.com/headlines/2023/08/06/2286595/philippines-produces-61000-million-metric-tons-waste-daily" target="_blank" class="btn btn-outline">Claim</a>
+
+            </div>
+
+          </div>
+
+          <div class="hero-slider" data-slider>
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="images/notebook_1.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <div class="hero-card">
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <video src="videos/Making Recycled Paper Notebooks By Hand.mp4" controls muted width="575" height="550" alt="video dito"
+                        class="img-cover">
+                    </figure>
+
+                    <button class="play-btn" aria-label="play adex intro">
+                      <ion-icon name="play" aria-hidden="true"></ion-icon>
+                    </button>
+                  </div>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="images/notebook3.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+              </ul>
+            </div>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+      <div id="wow"></div>
+      <section class="section service" aria-labelledby="service-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="service-label">What We Do?</p>
+
+          <h2 class="h2 section-title">
+            The product we offer is made out of recycled papers.
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Reasoning</h3>
+
+                <p class="card-text">
+                  ReWrite Right tackles this systemic problem by transforming discarded paper into functional and sustainable notebooks.
+                </p>
+
+                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F12GAVqXKTaRnd0v8iHe1fRJtRmD08l7rjxA-QExc65C8%2Fedit%3Ffbclid%3DIwAR1_ZsS8fSc4QoE1Ceo995tbBaEwFPLueeQ_7-Nj19uuTc894KW1CttsCdM&h=AT2V0-SIwu1utOJ3kN79VUhPnWpVLlyAsfR2IKmjUxq6hIdjIjhUYrRTvxa0HXpyF2xDdWAr3AUfRC1W_1iW9ygwIJDzIo3CsBRYMbK9-c5dZ2vjTLpDUEQxzzXBWnUi5Qu-DQ" target="_blank" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Evidence</h3>
+
+                <p class="card-text">
+                  According to UNDP Resident Representative Selva Ramchandran. The 2023 Circularity Gap Report indicates that only 7.2 percent of the global economy is circular.
+                </p>
+
+                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F12GAVqXKTaRnd0v8iHe1fRJtRmD08l7rjxA-QExc65C8%2Fedit%3Ffbclid%3DIwAR1_ZsS8fSc4QoE1Ceo995tbBaEwFPLueeQ_7-Nj19uuTc894KW1CttsCdM&h=AT2V0-SIwu1utOJ3kN79VUhPnWpVLlyAsfR2IKmjUxq6hIdjIjhUYrRTvxa0HXpyF2xDdWAr3AUfRC1W_1iW9ygwIJDzIo3CsBRYMbK9-c5dZ2vjTLpDUEQxzzXBWnUi5Qu-DQ" target="_blank" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Vision</h3>
+
+                <p class="card-text">
+                  From sourcing materials to manufacturing processes, minimize our environmental impact and promote a greener future. 
+
+                </p>
+
+                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F12GAVqXKTaRnd0v8iHe1fRJtRmD08l7rjxA-QExc65C8%2Fedit%3Ffbclid%3DIwAR1_ZsS8fSc4QoE1Ceo995tbBaEwFPLueeQ_7-Nj19uuTc894KW1CttsCdM&h=AT2V0-SIwu1utOJ3kN79VUhPnWpVLlyAsfR2IKmjUxq6hIdjIjhUYrRTvxa0HXpyF2xDdWAr3AUfRC1W_1iW9ygwIJDzIo3CsBRYMbK9-c5dZ2vjTLpDUEQxzzXBWnUi5Qu-DQ" target="_blank" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Unique Selling</h3>
+
+                <p class="card-text">
+                  What sets us apart is our commitment to giving back – 10% of every purchase goes to public school students.
+                </p>
+
+                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F12GAVqXKTaRnd0v8iHe1fRJtRmD08l7rjxA-QExc65C8%2Fedit%3Ffbclid%3DIwAR1_ZsS8fSc4QoE1Ceo995tbBaEwFPLueeQ_7-Nj19uuTc894KW1CttsCdM&h=AT2V0-SIwu1utOJ3kN79VUhPnWpVLlyAsfR2IKmjUxq6hIdjIjhUYrRTvxa0HXpyF2xDdWAr3AUfRC1W_1iW9ygwIJDzIo3CsBRYMbK9-c5dZ2vjTLpDUEQxzzXBWnUi5Qu-DQ" target="_blank" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+      <div id="abo"></div>
+      <section class="about" aria-labelledby="about-label">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="images/about-banner.png" width="800" height="580" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle" id="about-label">Why Choose Us?</p>
+
+            <h2 class="h2 section-title">
+              Sustainability and Social Responsibility
+            </h2>
+
+            <ul>
+
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">What makes it unique</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    What sets us apart is our commitment to giving back – 10% of every purchase goes to public school students, allowing our customers to make a positive impact on the world with each notebook they buy. ReWrite Right IS a product that not only elevates your writing experience but also empowers you to be a part of a meaningful change.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Value Proposition</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    By selecting our product, you're making a positive impact on both the planet and students in need, aligning with SDG #4 SDG #12, SDG #13. Making a difference with every purchase you make.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Reasoning</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    ReWrite Right tackles this systemic problem by transforming discarded paper into functional and sustainable notebooks. Our product disrupts the linear pattern of paper consumption and disposal, promoting a circular economy. By repurposing used paper, we significantly reduce the demand for new paper production, thus conserving forests and decreasing energy consumption associated with manufacturing.
+                  </p>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+
+          <figure class="feature-banner">
+            <img src="images/feature-banner.png" width="800" height="531" loading="lazy" alt="feature banner"
+              class="w-100">
+          </figure>
+
+          <div class="feature-content">
+
+            <p class="section-subtitle" id="feautre-label">Our Solutions</p>
+
+            <h2 class="h2 section-title">
+              Align with Sustainable Development Goal #4, #12, and  #13.
+            </h2>
+
+            <p class="section-text">
+              This solution goes beyond a mere Band-Aid fix. Instead of sustaining the current cycle of paper consumption, our social enterprise offers a sustainable alternative that addresses the root cause of the problem.
+            </p>
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    The 10% of profits allocated to charity/public school
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Redesigning products to make them more recyclable and reusable
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    ReWrite Right is the excessive waste generated by discarded paper.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Contributing to environmental degradation and loss of resources.
+                  </span>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #STATS
+      -->
+
+      <section class="stats" aria-label="our stats">
+        <div class="container">
+
+          <ul class="stats-card has-bg-image" style="background-image: url(images/stats-bg.jpg)">
+
+            <li>
+              <p class="card-text">
+                <span class="h1">0</span>
+
+                <spna class="span">Sales</spna>
+              </p>
+            </li>
+
+            <li>
+              <p class="card-text">
+                <span class="h1">3</span>
+
+                <spna class="span">Happy Customers</spna>
+              </p>
+            </li>
+
+            <li>
+              <p class="card-text">
+                <span class="h1">0</span>
+
+                <spna class="span">Profit</spna>
+              </p>
+            </li>
+
+            <li>
+              <p class="card-text">
+                <span class="h1">0.0</span>
+
+                <spna class="span">Ratings</spna>
+              </p>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+      <div id="plano"></div>
+      <section class="section project" aria-labelledby="project-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="project-label">Market Analysis</p>
+
+          <h2 class="h2 section-title">
+            One page at a time, we write a better tomorrow
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="images/ecojot.jpg" width="560" height="350" loading="lazy"
+                    alt="Awan" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="https://www.ecojot.com/" target="_blank" class="card-title">COMPETITORS</a>
+                  </h3>
+
+                  <p class="card-text">
+                    "Ecojot," a company known for its sustainable stationery products made from recycled materials. While competitors like Ecojot focus solely on eco-friendliness, our social enterprise, "ReWrite Right," sets itself apart by not only offering eco-friendly notebooks but also offers a strong and durable notebooks unlike others that easily rips up and also by dedicating 10% of profits to support public school students. This unique approach creates a compelling value proposition that resonates with socially conscious consumers.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-04-14">Canada</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">Ecojot paper is 100% post-consumer recycled</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="images/customers.png" width="560" height="350" loading="lazy"
+                    alt="Anong Image?" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">CUSTOMERS</a>
+                  </h3>
+
+                  <p class="card-text">
+                    In the Philippines, there is a growing population of students and eco-conscious consumers who are increasingly adopting environmentally friendly lifestyles and seeking products that support sustainability. With a large and youthful demographic profile, particularly in urban centers, the potential market size for ReWrite Right's eco-friendly notebooks is substantial.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-03-29">Philippines</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">People who reside in urban areas and prioritizes sustainability in their                purchasing decisions
+                      </span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="images/Sustainability_shutterstock_693953377_0.jpg" width="560" height="350" loading="lazy"
+                    alt="Pahingi Image" class="img-cover" id="resize">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">VALUES SUSTAINABILITY</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Our target customers place a high value on sustainability and are actively seeking ways to reduce their environmental footprint. They are concerned about the impact of their consumer choices on the planet and are motivated to support brands that share their commitment to environmental stewardship.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-02-26">Nationwide</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">Contribute to positive change and make a difference in the world</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+      <div id="end"></div>
+      <section class="cta" aria-label="call to action">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            Support public school students with 10% of profits.
+          </h2>
+
+          <a href="#" class="btn btn-primary">Buy now</a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">
+          <img src="images/Logo JB.png" width="75" height="24" alt="Jb Concha">
+        </a>
+
+        <p class="footer-text">
+          &copy; 2024 jbconcha. <br> All rights reserved.
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.facebook.com/jb.concha.7/" target="_blank" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/jb.concha.7/" target="_blank" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in Touch</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+            ISBB, Quezon City, Lucena 4301 / Site
+          </address>
+        </li>
+
+        <li>
+          <a href="mailto:info@email.com" class="footer-link">conchajb8@gmail.com</a>
+        </li>
+
+        <li>
+          <a href="tel:09514797005" class="footer-link">63+ (09) 514 79 7005</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Entrepreneurs</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">JB</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Xyrien Porte</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Shein Baronia</a>
+        </li>
+
+
+      </ul>
+
+      <div class="footer-list">
+
+        <p class="h4 footer-list-title">Follow us</p>
+
+        <p class="footer-text">
+          Follow us to get our news & deals delivered to you.
+        </p>
+
+        <form action="" class="input-wrapper">
+          <input type="email" name="email_address" placeholder="Email Address" required class="input-field">
+
+          <button type="submit" class="submit-btn">Join</button>
+        </form>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="peso.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
